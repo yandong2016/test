@@ -12,7 +12,7 @@ public class Test {
 		b = 100;
 		System.out.println("The sum is " + a+b);
 		//this is update2
-		System.out.println("conflict shows up");
+		System.out.println("new conflicts");
 	}
 
 }
