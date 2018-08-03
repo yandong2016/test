@@ -3,7 +3,7 @@ package test;
 public class Test {
 
 	private String name;
-	private String email;
+	private String email
 
 	public Employee(String name, String email) {
 	    System.out.println("Constructing an Employee");
@@ -11,6 +11,13 @@ public class Test {
 	    this.email = email;
 	}
 
+	public void mailCheck() {
+	    System.out.println("Mailing a check to " + this.name + " " + this.address);
+
+	public String toString() {
+    	return name + " " + address + " " + number;
+	}
+	
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 15;
