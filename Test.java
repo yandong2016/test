@@ -3,19 +3,16 @@ package test;
 public class Test {
 
 	private String name;
-	private String address;
-	private int number;
+	private String email
 
-	public Employee(String name, String address, int number) {
+	public Employee(String name, String email) {
 	    System.out.println("Constructing an Employee");
 	    this.name = name;
-	    this.address = address;
-	    this.number = number;
+	    this.email = email;
 	}
 
 	public void mailCheck() {
 	    System.out.println("Mailing a check to " + this.name + " " + this.address);
-	}
 
 	public String toString() {
     	return name + " " + address + " " + number;
@@ -31,7 +28,8 @@ public class Test {
 		b = 100;
 		System.out.println("The sum is " + a+b);
 		//this is update2
-		System.out.println("you know nothing");
+		int d = a + a + b;
+		System.out.println("how are you doing");
 	}
 
 }
