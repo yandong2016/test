@@ -3,7 +3,8 @@ package test;
 public class Test {
 
 	private String name;
-	private String email
+	private String email;
+	private String phone;
 
 	public Employee(String name, String email) {
 	    System.out.println("Constructing an Employee");
